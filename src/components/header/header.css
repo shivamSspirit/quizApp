@@ -1,0 +1,75 @@
+@import url(../../assets/theme/theme.css);
+
+body {
+	box-sizing: content-box;
+	margin: 0;
+}
+
+header {
+	border-bottom: 1px solid var(--primary-color);
+	width: 100%;
+	margin: 0 auto;
+}
+
+.mini-header {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	background-color: var(--header-bg);
+	padding: 1rem;
+	position: sticky;
+}
+
+.mini-icon-container {
+	flex-basis: 15%;
+	display: flex;
+}
+
+.spanItem{
+	margin-left: 1rem;
+}
+
+.img-link {
+	margin: 0 auto;
+}
+
+.icon {
+	width: 3rem;
+	height: 3rem;
+	margin: 0 auto;
+}
+
+.search-container {
+	flex-basis: 60%;
+	display: flex;
+}
+
+.search {
+	width: 18rem;
+	height: 2.6rem;
+	outline: none;
+	border: none;
+	margin-top: .4rem;
+	border-radius: 4px;
+	background-color: var(--header-bg);
+	border: .1rem solid var(--primary-color);
+	color: var(--primary-color);
+	padding-left: .5rem;
+}
+
+.mini-socials {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 25%;
+	justify-content: end;
+	gap: 1.3rem;
+	position: absolute;
+	top: 1.6rem;
+	right: 2.4rem;
+}
+
+.social-icons {
+	max-width: 2rem;
+	max-height: 2rem;
+}

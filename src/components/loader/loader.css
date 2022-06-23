@@ -1,0 +1,21 @@
+@import url(../../assets/theme/theme.css);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loaderContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader{
+    width: 100%;
+    background-color: var(--default-color);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-items: center;
+    align-content: center;
+}
