@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './result.css'
 import ResultScoreSvg from '../../assets/img/svg/resultscore.svg'
 import { Link } from 'react-router-dom'

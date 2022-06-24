@@ -1,4 +1,3 @@
-import React from 'react'
 import LandImg from '../../assets/img/jpeg/land (1).jpg'
 import './landing.css'
 import { Link } from 'react-router-dom'

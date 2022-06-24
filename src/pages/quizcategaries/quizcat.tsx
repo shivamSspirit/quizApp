@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from '../../components/header/header'
 import QuizCateCompoent from '../../components/quizCate/quizCategory'
 import Loader from '../../components/loader/loader'

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './landingPage.css'
 import Header from '../../components/header/header'
 import LandingComponent from '../../components/landing/landing'

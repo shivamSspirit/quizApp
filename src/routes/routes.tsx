@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BrowserRouter as Router, Route, Link, BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 
 import LandingPage from '../pages/landingPage/landingPage';
 import QuizCategoryes from '../pages/quizcategaries/quizcat';

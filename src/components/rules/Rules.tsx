@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 import RuleSvg from '../../assets/img/svg/mini-rules.svg'
 import './rules.css'

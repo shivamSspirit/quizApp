@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from '../../components/header/header'
 import Rules from '../../components/rules/Rules'
 import './rules.css'

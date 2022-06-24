@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './quizCatecom.css'
 
 import firstCateQuiz from '../../assets/img/jpeg/cash.jpg'
