@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+project preview link => https://quiz-app-zeta-gray.vercel.app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
