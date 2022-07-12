@@ -30,6 +30,12 @@ function SingleCateQuizComponent() {
 
     }, [categoryId])
 
+    useEffect(()=>{
+        if((selected&&questionsNumber===4)&&currentQuestions){
+            updateResult({ ...currentQuestions[questionsNumber], selected });
+        }
+    },[questionsNumber,selected])
+
 
     const handleSelectOptions = (currOption: string) => {
         if (currentQuestions) {
@@ -81,8 +87,7 @@ function SingleCateQuizComponent() {
                             </p>
                         </div>
                         <div className="options">
-
-                            {[currentQuestions[questionsNumber]?.correct_answer, ...currentQuestions[questionsNumber]?.incorrect_answers]?.map((item: string, idx: number) => (
+                            {[currentQuestions[questionsNumber]?.correct_answer, ...currentQuestions[questionsNumber]?.incorrect_answers]?.sort(() => 0.5 - Math.random())?.map((item: string, idx: number) => (
                                 <p
                                     key={`option${idx}`}
                                     className={`option ${selected && handleSelectOptions(item)}`}
