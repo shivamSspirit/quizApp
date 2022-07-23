@@ -1,11 +1,11 @@
 @import url(../../assets/theme/theme.css);
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-.category-content{
+.category-content {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -14,19 +14,19 @@
     justify-items: center;
 }
 
-.cat-title{
-    font-size: var(--cate-title-s);
+.cat-title {
+    font-size: 2rem;
     font-weight: var(--cate-title-w);
     color: var(--cate-txt-color);
 }
 
-.cate-name{
-    font-size: large;
-   display: flex;
-   justify-content: center;
+.cate-name {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
-.category{
+.category {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@
     justify-content: center;
 }
 
-.action-pad{
+.action-pad {
     border: 1px solid var(--secondary-color);
     max-width: 17rem;
     max-height: min-content;
@@ -42,36 +42,36 @@
     border-radius: 4px;
 }
 
-.action-pad:hover{
+.action-pad:hover {
     box-shadow: 3px 2px 10px 6px var(--primary-color);
 }
 
 
 
-.rm-border{
-    border:none;
+.rm-border {
+    border: none;
     border-bottom-left-radius: 11px;
     border-bottom-right-radius: 11px;
 }
 
-.mini-contain{
+.mini-contain {
     width: 14.5rem;
     height: 13.8rem;
 }
 
-.mini-title{
+.mini-title {
     font-size: var(--cate-title-s);
     font-weight: var(--cate-title-w);
     color: var(--cate-txt-color);
     text-overflow: hidden;
 }
 
-.mini-btn{
+.mini-btn {
     font-size: var(--cate-txt-s);
     font-weight: var(--cate-txt-w);
     color: var(--cate-txt-color);
     border-radius: 11px;
     text-decoration: none;
     text-align: center;
-   
+
 }
