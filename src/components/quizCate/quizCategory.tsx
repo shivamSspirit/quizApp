@@ -21,7 +21,8 @@ function QuizCateCompoent() {
                         <div key={`${idx}`} className="action-pad">
                             <div className="action-card rm-border">
                                 <div className="img-container-product0 mini-contain">
-                                    <img className="p-img0" alt="" src={firstCateQuiz} />
+                                     <img className="p-img0" alt="" src={firstCateQuiz} /> 
+                                    {/* <p className='cate-name'>{item?.name}</p> */}
                                 </div>
                                 <div className="card-content-product0">
                                     <h3 className="title0 mini-title">{item?.name?.length > 24 ? `${item?.name?.slice(0, 24)}...` : item?.name}</h3>

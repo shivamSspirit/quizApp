@@ -20,6 +20,12 @@
     color: var(--cate-txt-color);
 }
 
+.cate-name{
+    font-size: large;
+   display: flex;
+   justify-content: center;
+}
+
 .category{
     display: flex;
     flex-direction: row;
