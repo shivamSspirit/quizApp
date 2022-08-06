@@ -1,0 +1,81 @@
+@import url(../../../assets/theme/theme.css);
+
+.login-container {
+    background-color: var(--default-color);
+    width: 100vw;
+    min-height: calc(100% - 84px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.login-form-container {
+    width: 50%;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.log-title {
+    font-size: xx-large;
+    color: var(--default-color);
+}
+
+.log-form {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+.log-form-parts {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.log-link:hover {
+    color: white;
+}
+
+.log-form-label {}
+
+.log-form-inputs {
+    outline: none;
+    height: 2.3rem;
+    background-color: transparent;
+    border: 1 px solid saddlebrown;
+}
+
+.g-btn {
+    margin-top: .4rem;
+    background-color: transparent;
+    border: 2px solid var(--default-color);
+    padding: .5rem;
+    border-radius: 4px;
+
+}
+
+.g-btn:hover {
+    background-color: var(--default-color);
+    color: white;
+}
+
+.log-btn {
+    height: 2.3rem;
+    background-color: transparent;
+    border-radius: 4px;
+
+}
+
+.log-btn:hover {
+    background-color: var(--default-color);
+    color: white;
+}

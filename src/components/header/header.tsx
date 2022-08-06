@@ -7,10 +7,13 @@ import { Link } from 'react-router-dom'
 import { useQuizs } from '../../context/global'
 import { useLocation } from 'react-router-dom';
 
+import { useAuths } from '../../firebase-config'
+import UserIcon from "../../assets/img/svg/user.png"
+
 function Header() {
     const [searchVal, setSearchVal] = React.useState('');
-    const { quizCategory, setFilteredCate }: any = useQuizs();
-
+    const { quizCategory, setFilteredCate, user }: any = useQuizs();
+    const { logout } = useAuths()
     const location = useLocation();
 
     const handleSearch = (e: any) => {
@@ -38,6 +41,10 @@ function Header() {
                         </div>
                     )}
                     <div className="mini-socials">
+                        <span>
+                            {user ? <button className='social-btn' onClick={() => logout()}><img className="social-icons" src={UserIcon} alt="user" /></button> : <Link to={'/auth/login'} ><img className="social-icons" src={UserIcon} alt="user" /></Link>}
+                            {/* <Link to={'/auth/login'} ><img className="social-icons" src={UserIcon} alt="user"/></Link> */}
+                        </span>
                         <span><a href="https://github.com/shivamsoni00"><img src={gitIcon}
                             className="social-icons" /></a></span>
 

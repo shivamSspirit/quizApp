@@ -70,6 +70,13 @@ header {
 }
 
 .social-icons {
-	max-width: 2rem;
-	max-height: 2rem;
+	max-width: 2.3rem;
+	max-height: 2.3rem;
+	cursor: pointer;
+}
+
+.social-btn{
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
 }

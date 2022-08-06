@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { Routes, Route } from "react-router-dom";
+import LoginPage from '../pages/auth/loginpage/loginpage';
+import SignupPage from '../pages/auth/signuppage/signuppage';
 
 import LandingPage from '../pages/landingPage/landingPage';
 import QuizCategoryes from '../pages/quizcategaries/quizcat';
@@ -20,6 +22,8 @@ function ALLroutes() {
   return (
     <div>
       <Routes>
+        <Route path='/auth/login' element={<LoginPage/>}/>
+        <Route path='/auth/signup' element={<SignupPage/>}/>
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/categories' element={<QuizCategoryes/>}/>
         <Route path='/categories/:categoryId' element={<SingleCateQuiz/>}/>
