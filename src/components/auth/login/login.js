@@ -6,9 +6,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import './login.css'
 
 function Login() {
-    const { auth,
-        signInWithGoogle,
-        logInWithEmailAndPassword, } = useAuths()
+    const { auth, signInWithGoogle, logInWithEmailAndPassword, } = useAuths()
     const [loginstate, setloginstate] = useState({
         email: '',
         password: ''

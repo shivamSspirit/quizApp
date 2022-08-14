@@ -1,8 +1,17 @@
 import LandImg from '../../assets/img/jpeg/land (1).jpg'
 import './landing.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useQuizs } from '../../context/global'
 
 function LandingComponent() {
+    const { user }: any = useQuizs()
+    const navigate = useNavigate()
+    useEffect(() => {
+        if (!user) {
+            navigate('/auth/login')
+        }
+    }, [user])
     return (
         <div className='main-content'>
             <div className="land-content">

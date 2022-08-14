@@ -9,26 +9,31 @@ import QuizCategoryes from '../pages/quizcategaries/quizcat';
 import Resultpage from '../pages/resultPage/resultPage';
 import RulesPage from '../pages/rules/rules';
 import SingleCateQuiz from '../pages/singlequizCate/singlequizCate';
+import { Helmet } from "react-helmet";
 
 export interface RouteProps {
-    element?: React.ComponentType<any> | React.ComponentType<any>;
-    children?: ((props:any) => React.ReactNode) | React.ReactNode;
-    path?: string | string[];
-    exact?: boolean;
-  }
+  element?: React.ComponentType<any> | React.ComponentType<any>;
+  children?: ((props: any) => React.ReactNode) | React.ReactNode;
+  path?: string | string[];
+  exact?: boolean;
+}
 
 
 function ALLroutes() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>My Quizes</title>
+      </Helmet>
       <Routes>
-        <Route path='/auth/login' element={<LoginPage/>}/>
-        <Route path='/auth/signup' element={<SignupPage/>}/>
-        <Route path='/' element={<LandingPage/>}/>
-        <Route path='/categories' element={<QuizCategoryes/>}/>
-        <Route path='/categories/:categoryId' element={<SingleCateQuiz/>}/>
-        <Route path="/rules" element={<RulesPage/>}/>
-        <Route path='/result' element={<Resultpage/>}/>
+        <Route path='/auth/login' element={<LoginPage />} />
+        <Route path='/auth/signup' element={<SignupPage />} />
+        <Route path='/' element={<LandingPage />} />
+        <Route path='/categories' element={<QuizCategoryes />} />
+        <Route path='/categories/:categoryId' element={<SingleCateQuiz />} />
+        <Route path="/rules" element={<RulesPage />} />
+        <Route path='/result' element={<Resultpage />} />
       </Routes>
     </div>
   )
