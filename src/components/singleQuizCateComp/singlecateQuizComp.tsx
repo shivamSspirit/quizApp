@@ -1,10 +1,8 @@
 import  { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import './singlecatequiz.css'
-import { useParams } from 'react-router-dom'
-import { useQuizs } from '../../context/global'
+import { Link,useParams,useNavigate } from 'react-router-dom'
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+import './singlecatequiz.css'
+import { useQuizs } from '../../context/global'
 import Loader from '../loader/loader'
 
 import { QuestionObjInterface as questionObj } from '../../context/global'

@@ -1,4 +1,3 @@
-import React from 'react'
 import Signup from '../../../components/auth/signup/signup'
 import Header from '../../../components/header/header'
 

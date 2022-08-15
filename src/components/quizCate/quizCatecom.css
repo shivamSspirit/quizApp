@@ -1,10 +1,5 @@
 @import url(../../assets/theme/theme.css);
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .category-content {
     display: flex;
     flex-direction: column;

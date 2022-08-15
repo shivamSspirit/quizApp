@@ -1,4 +1,3 @@
-import React from 'react'
 import Login from '../../../components/auth/login/login'
 import Header from '../../../components/header/header'
 

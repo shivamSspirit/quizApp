@@ -43,7 +43,6 @@ function Header() {
                     <div className="mini-socials">
                         <span>
                             {user ? <button className='social-btn' onClick={() => logout()}><img className="social-icons" src={UserIcon} alt="user" /></button> : <Link to={'/auth/login'} ><img className="social-icons" src={UserIcon} alt="user" /></Link>}
-                            {/* <Link to={'/auth/login'} ><img className="social-icons" src={UserIcon} alt="user"/></Link> */}
                         </span>
                         <span><a href="https://github.com/shivamsoni00"><img src={gitIcon}
                             className="social-icons" /></a></span>

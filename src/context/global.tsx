@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, createContext, useContext, useState } from "react";
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useAuths } from '../firebase-config';
-import { useNavigate } from 'react-router-dom';
+
 
 const QuizGlobalContext = createContext({})
 
