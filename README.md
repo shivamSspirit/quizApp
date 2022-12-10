@@ -1,47 +1,46 @@
-# Getting Started with Create React App
 
-project preview link => https://quiz-app-zeta-gray.vercel.app
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Are you quiz lover ? Do you love attemt quiz on multiple category? quizApp is for you! Its the Fun Quiz App which tests your knowledge on various catgories!
 
-## Available Scripts
+## How to run the app locally?
 
-In the project directory, you can run:
+```
+$ git https://github.com/shivamsoni00/quizApp.git
+$ cd my-app
+$ npm install
+$ npm start
+```
 
-### `npm start`
+## Screens in this project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Landing Page
+2. Rules Page
+3. Authentication (Login, Signup) Pages
+4. MCQ based Question Page
+5. category pages
+6. Leaderboard
+7. Result Page with Answers & Score
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+1. Authentication including Login, Signup and Logout using Firebase. All the authentication forms have the proper validation.
+2. Landing Page with Featured Quiz Categories. User can choose the quiz to play by selecting category.
+3. Rules page displaying the rules for the Quiz
+4. Question Page with four options.
+5. Quit Quiz on the Question Page.
+6. Results page displaying the correct answers, answers chosen by user and the score for that quiz.
+7. Loader is shown while the information is fetched.
+8. All the screens are Responsive.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack and Tools
 
-### `npm run build`
+1. Typescript with React JS
+2. Firebase for auth
+3. React Router v6
+4. React Context API + useReducer
+5. Git For Version Control
+6. vercel for deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live link
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[pretquiz](https://quiz-app-zeta-gray.vercel.app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
